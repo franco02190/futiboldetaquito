@@ -1,0 +1,14 @@
+/* Estilos simples y responsivos para la plantilla inicial */
+:root{--bg:#ffffff;--accent:#d32f2f;--text:#1b1b1b}
+*{box-sizing:border-box}
+body{font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;line-height:1.5;margin:0;color:var(--text);background:var(--bg)}
+.container{max-width:980px;margin:0 auto;padding:1rem}
+.site-header{background:linear-gradient(90deg,#b71c1c,#d32f2f);color:#fff;padding:1.25rem 0}
+.site-header h1{margin:0;font-size:1.5rem}
+.tagline{opacity:.9;margin-top:.25rem}
+main{padding:1rem 0}
+article h2{color:var(--accent)}
+.highlights ul{padding-left:1.2rem}
+.highlights a{color:var(--accent);text-decoration:none}
+.site-footer{border-top:1px solid #eee;padding:1rem 0;margin-top:2rem;text-align:center;color:#666}
+@media (max-width:600px){.container{padding:.75rem}.site-header h1{font-size:1.25rem}}
