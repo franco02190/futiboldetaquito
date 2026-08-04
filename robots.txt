@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://futiboldetaquito.com/sitemap.xml
+Sitemap: https://franco02190.github.io/futiboldetaquito/sitemap.xml
