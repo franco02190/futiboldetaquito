@@ -14,32 +14,100 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <h1>Futibol de Taquito</h1>
-      <p class="tagline">Noticias, resultados y crónicas del fútbol al instante</p>
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Futibol de Taquito</h1>
+        <p class="tagline">Noticias, resultados y crónicas del fútbol al instante</p>
+      </div>
+      <nav class="main-nav">
+        <a href="#noticias">Noticias</a>
+        <a href="#destacados">Destacados</a>
+        <a href="#proximamente">Próximamente</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
     </div>
   </header>
 
-  <main class="container">
-    <article>
-      <h2>Bienvenido</h2>
-      <p>Esta es la página inicial. Aquí encontrarás las últimas noticias sobre partidos, copas y los ídolos del fútbol. Usa esta plantilla para ampliar contenido y añadir secciones como noticias, resultados y clasificación.</p>
-    </article>
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h2>La pasión del fútbol en cada crónica</h2>
+        <p>Cobertura rápida de partidos, entrevistas y todo lo que necesita el verdadero seguidor. Sigue los goles, la copa y a los ídolos.</p>
+        <p class="cta"><a class="btn" href="#noticias">Ver noticias</a></p>
+      </div>
+      <div class="hero-image">
+        <div class="placeholder">Imagen</div>
+      </div>
+    </div>
+  </section>
 
-    <section class="highlights">
-      <h3>Últimas noticias</h3>
+  <main class="container main-grid">
+    <section id="noticias" class="noticias">
+      <h2>Últimas noticias</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Crónica: golazo en la final</h3>
+          <p>Resumen breve del partido, la jugada clave y la reacción del ídolo.</p>
+          <a href="#" class="readmore">Leer</a>
+        </article>
+        <article class="card">
+          <h3>Entrevista exclusiva con el ídolo</h3>
+          <p>Conversamos con el jugador sobre la temporada y sus metas.</p>
+          <a href="#" class="readmore">Leer</a>
+        </article>
+        <article class="card">
+          <h3>Calendario de la copa</h3>
+          <p>Fechas y partidos importantes que no te puedes perder.</p>
+          <a href="#" class="readmore">Leer</a>
+        </article>
+      </div>
+    </section>
+
+    <aside id="destacados" class="destacados">
+      <h2>Destacados</h2>
       <ul>
-        <li><a href="#">Crónica: golazo en la final</a></li>
-        <li><a href="#">Entrevista exclusiva con el ídolo</a></li>
-        <li><a href="#">Calendario de la copa</a></li>
+        <li>Tabla de posiciones (próximamente)</li>
+        <li>Estadísticas de jugadores (próximamente)</li>
+        <li>Galería de goles (próximamente)</li>
       </ul>
+    </aside>
+
+    <section id="proximamente" class="proximamente">
+      <h2>Secciones en desarrollo</h2>
+      <div class="future-grid">
+        <div class="future">Foro de fans<br><small>Próximamente</small></div>
+        <div class="future">Resultados en vivo<br><small>Próximamente</small></div>
+        <div class="future">Podcast<br><small>Próximamente</small></div>
+        <div class="future">Tienda<br><small>Próximamente</small></div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2>Contacto</h2>
+      <p>¿Tienes sugerencias o quieres colaborar? Deja tu email y te contactaremos.</p>
+      <form class="newsletter" action="#" method="post">
+        <input type="email" placeholder="tu@email.com" aria-label="email">
+        <button type="submit">Suscribirse</button>
+      </form>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <small>© Futibol de Taquito — Sitio en construcción</small>
+    <div class="container footer-grid">
+      <div>
+        <h4>Futibol de Taquito</h4>
+        <p>© Futibol de Taquito — Sitio en construcción</p>
+      </div>
+      <div>
+        <h4>Síguenos</h4>
+        <p>Twitter · Instagram · Facebook (próximamente)</p>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <p>Política de privacidad · Términos</p>
+      </div>
     </div>
   </footer>
+
 </body>
 </html>
